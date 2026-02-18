@@ -2,6 +2,34 @@
 ## Signal to Strategy: Boardroom Thinking for MSME Growth
 **Role:** Growth Consultant (Simulation)
 **Candidate:** Tejasva Midha
+
+---
+
+## Quick Start - Greeting Module
+
+This repository includes a simple greeting program that responds to various greetings.
+
+### Usage
+
+```bash
+python3 greeting.py
+```
+
+Or use it programmatically:
+
+```python
+from greeting import greet
+
+response = greet("HI")
+print(response)  # Output: Hello! Welcome to the DT Fellowship Assignment repository!
+```
+
+### Running Tests
+
+```bash
+python3 -m unittest test_greeting.py -v
+```
+
 ---
 ## Context
 This assignment is approached not as a consulting task, but as a founder-level diagnosis
